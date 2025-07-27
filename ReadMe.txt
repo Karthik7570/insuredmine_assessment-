@@ -1,16 +1,16 @@
-Please read the instruction to set up the project
+Please read the instructions to set up the project
 
 For MongoDatabase configuration
-We use docker image which is run on the port 27017
+We use a Docker image that runs on port 27017
 
 The curl command 
 
-to upload the csv file
+to upload the CSV file
 
 curl --location 'http://localhost:3000/uploads?file=null' \
 --form 'file=@"/C:/Users/windev/Downloads/data-sheet - Node js Assesment (2) (1) (1).csv"'
 
-find the policies by username
+Find the policies by username
 curl --location 'http://localhost:3000/api/policies/by-username?username=Lura%20Lucca'
 
 aggregate
